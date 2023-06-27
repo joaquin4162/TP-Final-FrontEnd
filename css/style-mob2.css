@@ -1,0 +1,156 @@
+:root {
+    --darkGray: hsl(0, 0%, 63%);
+    --Black: hsl(0, 0%, 0%);
+    --White: hsl(0, 0%, 100%);
+    --VeryDarkGray: hsl(0, 0%, 27%);
+}
+
+
+@media (max-width: 375px) {
+    html {
+        max-width: 375px;
+        font-family: 'League Spartan', sans-serif;
+    }
+
+    body {
+        margin: 0;
+
+
+    }
+
+
+    .cont-header {
+        display: flex;
+        position: absolute;
+        margin-top: 10%;
+        overflow: hidden;
+    }
+
+    .navegador-lista {
+        display: flex;
+        visibility: hidden;
+        text-decoration: none;
+        list-style: none;
+        width: auto;
+
+    }
+
+    .hamburguesa {
+
+        margin-left: 10%;
+
+    }
+
+    .cont-logo {
+        margin-left: 40%;
+
+    }
+
+
+    .conteiner-1 {
+        width: 100%;
+
+    }
+
+    .imagen-1 {
+        content: url(/img/mobile-image-hero-2.jpg);
+
+    }
+
+    .cont-2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .textodiv p {
+        line-height: 1.3rem;
+        color: var(--darkGray);
+    }
+
+    .textodiv h3 {
+        letter-spacing: 0.8rem;
+    }
+
+    .textodiv h3 a {
+        text-decoration: none;
+    }
+
+    .textodiv h3 a:visited {
+        color: var(--Black);
+    }
+
+    .textodiv h3 a:hover {
+        color: var(--VeryDarkGray);
+    }
+
+    .contenedorflechas {
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 40%;
+    }
+
+    .flecha-izq {
+        background-color: var(--Black);
+        height: 100%;
+        text-align: center;
+
+    }
+
+    .flecha-izq img {
+        margin-top: 20%;
+    }
+
+    .flecha-izq:hover {
+        background-color: var(--darkGray);
+    }
+
+
+    .flecha-der {
+        background-color: var(--Black);
+        height: 100%;
+        text-align: center;
+    }
+
+    .flecha-der img {
+        margin-top: 20%;
+    }
+
+
+    .flecha-der:hover {
+        background-color: var(--darkGray);
+    }
+
+
+    .conteiner-2 {
+        width: 100%;
+
+    }
+
+    
+    .textodiv2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .textodiv2 p {
+        line-height: 1.3rem;
+        color: var(--darkGray);
+    }
+
+    .imangen2 {
+        width: 100%;
+    }
+
+    .imagen-2 {
+        width: 100%;
+    }
+
+    .imangen3 {
+        width: 100%;
+    }
+
+    .imagen-3 {
+        width: 100%;
+    }
+
+}
